@@ -1,0 +1,13 @@
+alter table student1 add gmail varchar(10);
+Query OK, 0 rows affected (0.03 sec)
+Records: 0  Duplicates: 0  Warnings: 0
+
+mysql> desc student1;
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| regno | int         | YES  |     | NULL    |       |
+| name  | varchar(8)  | YES  |     | NULL    |       |
+| gmail | varchar(10) | YES  |     | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
