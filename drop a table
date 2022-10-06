@@ -1,0 +1,5 @@
+mysql> drop table student1;
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> desc student1;
+ERROR 1146 (42S02): Table 'student.student1' doesn't exist
